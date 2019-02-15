@@ -9,7 +9,7 @@ body{
     border-style: solid;
     border-width: 2px;
     border-color: #999;
-    padding: 1em 0em 1em 0em;
+    padding: 2em;
     margin-top: 2em;
     margin-bottom: 4em;
     background-color: white;
@@ -24,7 +24,6 @@ body{
     border-bottom-width: 2px;
     padding: 0px;
     width: 100%;
-    /* padding: 1em 0em 1em 0em; */
 }
 
 .nav-link{
@@ -51,7 +50,8 @@ body{
 /* IMAGE */
 
 img{
-    float: left
+    float: left;
+    margin-right: 1em;
 }
 
 /* FOOTER */
@@ -78,14 +78,12 @@ footer{
         width: 100%;
     }
     .container{
-       margin-top: 1em;
-       margin-bottom: 5em;
+       margin: 1em 0em 5em 0em;
     }
+
     p{
         margin: 0em 1em 0em 1em;
     }
-    img{
-        margin: 1em;
-    }
+    
 }
 
