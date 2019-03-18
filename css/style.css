@@ -26,7 +26,9 @@ h2{
 }
 
 /* NAVBAR */
-
+div img{
+  margin-right: 1em;
+}
 .nav{
     background-color: white;
     border-bottom-color: #999;
@@ -39,9 +41,12 @@ h2{
 a.nav-link{
     color: white;
     background-color: white;
-    text-align: left;
+    text-align: center;
 }
 
+.nav-link{
+  text-align: center;
+}
 .navbar-brand{
     color: white;
     background-color: #4aaaa5;
@@ -64,11 +69,15 @@ a.nav-link{
     padding-right: 20px;
 }
 
+a:hover{
+  color: white;
+  background: #4aaaa5;
+}
+
 /* IMAGE */
 
 img{
     float: left;
-    margin-right: 1em;
 }
 
 /* PORTFOLIO */
@@ -86,13 +95,21 @@ img{
   
   .work img {
     width: 100%;
+    height: 100%;
     border: 0 none;
     opacity: 0.8;
   }
-
+  .div.work.img{
+    margin-left: auto;
+  }
   .nav.nav.flex-row{
     justify-content: center;
   }
+ a.nav-link:hover{
+  color: white;
+  background: #4aaaa5;
+}
+
   
   .work h3 {
     position: absolute;
@@ -197,7 +214,5 @@ footer{
       align-content: left;
     }
 }
-
-
 
 
