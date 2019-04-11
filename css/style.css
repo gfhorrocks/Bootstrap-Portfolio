@@ -30,8 +30,9 @@ h2{
 div img{
   margin-right: 1em;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: #000000;
+  box-shadow: 6px 6px #867078;
 }
 .nav{
     background-color: #a0b5b5;
