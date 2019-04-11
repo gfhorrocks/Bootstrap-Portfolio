@@ -86,7 +86,7 @@ img{
     float: left;
     width: 274px;
     margin: 20px 20px 25px;
-    overflow: auto;
+    overflow: none;
   }
   
   .work:nth-child(even) {
@@ -123,7 +123,13 @@ img{
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+    display: block;
   }
+
+  .work h4{
+    text-align: center;
+  }
+  
   
   .auth-image {
     float: left;
