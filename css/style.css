@@ -8,16 +8,17 @@ body{
 .container{
     border-style: solid;
     border-width: 2px;
-    border-color: #999;
+    border-color: #000000;
     padding: 2em;
     margin-top: 2em;
     margin-bottom: 4em;
-    background-color: white;
+    background-color: #a0b5b5;
+    box-shadow: 10px 10px #867078;
 }
 
 h2{
-    color: #4aaaa5;
-    border-bottom-color: #999;
+    color: #867078;
+    border-bottom-color: #000000;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     padding: 1em 0em 1em 0em;
@@ -28,19 +29,22 @@ h2{
 /* NAVBAR */
 div img{
   margin-right: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
 }
 .nav{
-    background-color: white;
-    border-bottom-color: #999;
+    background-color: #a0b5b5;
+    border-bottom-color: #867078;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 10px;
     padding: 0px;
     width: 100%;
 }
 
 a.nav-link{
-    color: white;
-    background-color: white;
+    color: #a0b5b5;
+    background-color: #a0b5b5;
     text-align: center;
 }
 
@@ -48,19 +52,19 @@ a.nav-link{
   text-align: center;
 }
 .navbar-brand{
-    color: white;
-    background-color: #4aaaa5;
+    color: #000000;
+    background-color: #867078;
     padding: 0;
     margin: 0;
 }
 .nav.flex-row a,.nav.flex-row:visited{
     
-    color: #999;
-    background-color: white;
+    color: #000000;
+    background-color: #a0b5b5;
 }
 
 .flex-fill{
-    background-color: white;
+    background-color: #a0b5b5;
 }
 
 .myName{
@@ -70,8 +74,8 @@ a.nav-link{
 }
 
 a:hover{
-  color: white;
-  background: #4aaaa5;
+  color: #a0b5b5;
+  background: #867078;
 }
 
 /* IMAGE */
@@ -106,8 +110,8 @@ img{
     justify-content: center;
   }
  a.nav-link:hover{
-  color: white;
-  background: #4aaaa5;
+  color: #a0b5b5;
+  background: #867078;
 }
 
   
@@ -121,7 +125,7 @@ img{
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: #867078;
     border-bottom: 0;
     display: block;
   }
@@ -175,7 +179,7 @@ img{
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #867078;
     border: 0 none;
   }
 
@@ -187,11 +191,10 @@ footer{
     padding: 15px 0;
     clear: both;
     font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
+    color: #000000;
     text-align: center;
-    background: #666666;
-    border-top: 8px solid #4aaaa5;
+    background: #a0b5b5;
+    border-top: 10px solid #867078;
     height: 50px;
     bottom: 0;
 }
@@ -214,10 +217,11 @@ footer{
         width: 100%;
         height: auto;
         margin-bottom: 1em;
+        align-content: center;
     }
     a{
-      text-align: left;
-      align-content: left;
+      text-align: center;
+      align-content: center;
     }
 }
 
