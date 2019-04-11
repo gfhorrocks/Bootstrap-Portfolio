@@ -13,11 +13,11 @@ body{
     margin-top: 2em;
     margin-bottom: 4em;
     background-color: #a0b5b5;
-    box-shadow: 10px 10px #867078;
+    box-shadow: 10px 10px #596b5f;
 }
 
 h2{
-    color: #867078;
+    color: #596b5f;
     border-bottom-color: #000000;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -32,11 +32,11 @@ div img{
   border-style: solid;
   border-width: 2px;
   border-color: #000000;
-  box-shadow: 6px 6px #867078;
+  box-shadow: 6px 6px #596b5f;
 }
 .nav{
     background-color: #a0b5b5;
-    border-bottom-color: #867078;
+    border-bottom-color: #596b5f;
     border-bottom-style: solid;
     border-bottom-width: 10px;
     padding: 0px;
@@ -54,9 +54,10 @@ a.nav-link{
 }
 .navbar-brand{
     color: #000000;
-    background-color: #867078;
+    background-color: #596b5f;
     padding: 0;
     margin: 0;
+    padding-top: 5px;
 }
 .nav.flex-row a,.nav.flex-row:visited{
     
@@ -76,13 +77,14 @@ a.nav-link{
 
 a:hover{
   color: #a0b5b5;
-  background: #867078;
+  background: #596b5f;
 }
 
 /* IMAGE */
 
 img{
     float: left;
+    margin-bottom: 3px;
 }
 
 /* PORTFOLIO */
@@ -112,7 +114,7 @@ img{
   }
  a.nav-link:hover{
   color: #a0b5b5;
-  background: #867078;
+  background: #596b5f;
 }
 
   
@@ -126,7 +128,7 @@ img{
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #867078;
+    background: #596b5f;
     border-bottom: 0;
     display: block;
   }
@@ -180,7 +182,7 @@ img{
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #867078;
+    background: #596b5f;
     border: 0 none;
   }
 
@@ -195,7 +197,7 @@ footer{
     color: #000000;
     text-align: center;
     background: #a0b5b5;
-    border-top: 10px solid #867078;
+    border-top: 10px solid #596b5f;
     height: 50px;
     bottom: 0;
 }
